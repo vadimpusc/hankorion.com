@@ -30,6 +30,22 @@ Author URL: https://themeforest.net/user/codesymbol/
     /* ---------------------- */
     /* Global                 */
     /* ---------------------- */
+
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+    .column {
+      float: left;
+      align: center;
+      width: 100%;
+      padding: 30px;
+    }
+
+    /* Clear floats after image containers */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
         @font-face {
             font-family: 'effra';
             src: url('../includes/font/effra-regular.eot');
