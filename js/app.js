@@ -1,0 +1,1 @@
+alert ("I was born in Ukraine, and due to recent tragic events I wanted to show my gratitude for all the help and support Ukraine is getting from around the world. I have made all my courses free to enrol on Udemy.")
