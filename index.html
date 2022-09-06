@@ -35,6 +35,7 @@
 <!-- Begin Body -->
 <body class="fullscreen">
 
+<!-- I hid oveerflow class in css of fullscreen -->
 
     <!-- Begin Loader -->
     <!-- <div class="preloader">
@@ -119,13 +120,25 @@
             </div> -->
         </div>
     </main>
+
+            <!-- Subscribe form *** -->
+
+    <div class="subscribe">
+        <!-- <p>Subscrite to newsletter for updates!</p> -->
+        <form name="submit-to-google-sheet">
+            <input type="email" name="Email" placeholder="Subscrite to newsletter..." required>
+            <button type="submit"><img src="images/mail.png" width="30px"></button>
+        </form>
+        <span id="message"></span>
+    </div>
+
+    <!-- End form  -->
+
     <!-- End Main -->
     <!-- Begin Footer -->
     <footer>
 
         <div class="copyrights">
-            <h2>Test</h2>
-
             <p>© Hank Orion | All Rights Reserved</p>
         </div>
 
@@ -139,7 +152,6 @@
 
     </footer>
     <!-- End Footer -->
-
 
     <!-- Begin JavaScript -->
     <script src="js/jquery.js"></script>
@@ -158,6 +170,25 @@
     <script src="js/scripts.js"></script>
     <!-- End JavaScript -->
 
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxOhIwkAwAdvqwvv7EGLkmSg8lbcC2IauzCTM6Rixc-_a7HQ0LHrcQtVLGDbz0ahUrTWA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById(message)
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+            message.innerHTML = "Thank you for subscribing!"
+            setTimeout(function(){
+                message.innerHTML = ""
+            },5000)
+            form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 
 </body>
 <!-- End Body -->

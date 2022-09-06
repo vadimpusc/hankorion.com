@@ -27,6 +27,55 @@ Author URL: https://themeforest.net/user/codesymbol/
 ================================================================
 */
 
+/* subscrribe form  */
+
+
+.subscribe {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe p {
+    margin-top: 5%;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: auto;
+}
+
+form {
+    background: white;
+    display: flex;
+    width: fit-content;
+}
+
+form input {
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    /* height: 70px;
+    width: 400px; */
+    font-size: 16px;
+}
+
+form button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+span {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    display: block;
+}
+
+/* end form */
+
     /* ---------------------- */
     /* Global                 */
     /* ---------------------- */
@@ -127,7 +176,7 @@ Author URL: https://themeforest.net/user/codesymbol/
             html.fullscreen {
                 width: 100%;
                 height: 100%;
-                overflow: hidden;
+                /* overflow: hidden; */
             }
             main {
                 position: relative;
