@@ -85,6 +85,16 @@ span {
     font-weight: 100;
 }
 
+.content p {
+    color: white;
+    font-size: 22px;
+}
+
+.info-label p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
     /* ---------------------- */
     /* Global                 */
     /* ---------------------- */
@@ -1797,14 +1807,14 @@ span {
                 .project .cover .overlay h1 {
                     font-family: 'effra';
                     letter-spacing: 4px;
-                    font-size: 24px;
+                    font-size: 34px;
                     line-height: 33px;
                     margin-bottom: 5px;
                     text-transform: uppercase;
                 }
                 .project .cover .overlay .categories {
                     display: block;
-                    font-size: 12px;
+                    font-size: 16px;
                 }
 
                 .project .cover.slider .horizontal-slider.full {
@@ -1851,7 +1861,7 @@ span {
                     position: relative;
                 }
                 .project .cover.text .overlay h1 {
-                    font-size: 24px;
+                    font-size: 34px;
                 }
                 .project .cover.text .overlay .categories {
 
