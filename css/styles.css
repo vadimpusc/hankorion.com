@@ -76,6 +76,15 @@ span {
 
 /* end form */
 
+.categories span {
+    font-size: 14px;
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
     /* ---------------------- */
     /* Global                 */
     /* ---------------------- */
@@ -1725,8 +1734,8 @@ span {
             font-family: 'effra';
             position: relative;
             display: block;
-            font-size: 14px;
-            line-height: 24px;
+            font-size: 20px;
+            line-height: 30px;
             margin: 0;
             letter-spacing: 4px;
             text-transform: uppercase;
