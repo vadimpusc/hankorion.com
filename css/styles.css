@@ -71,14 +71,20 @@ Author URL: https://themeforest.net/user/codesymbol/
   .book-text {
     font-size: 18px;
     color: white;
-    padding: 5%;
+    padding: 1%;
   }
 
-  @media (max-width:900px) {
+  @media (max-width: 900px) {
+    .book-container {
+      display: block;
+    }
+  }
+  
+  /* @media (max-width:900px) {
     .book-cover {
       display: none;
     }
-  }
+  } */
 
 /* book ends  */
 
