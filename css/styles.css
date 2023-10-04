@@ -885,7 +885,7 @@ span {
     /* Navigation - Main Links */
     /* ----------------------  */
         header > nav {
-            float: right;
+            float: left;
             height: 100px;
         }
         header > nav > ul {
@@ -911,6 +911,8 @@ span {
             text-align: center;
             justify-content: center;
         }
+
+
 
     /* ----------------------                  */
     /* Navigation - Dropdown Small (1st Level) */
