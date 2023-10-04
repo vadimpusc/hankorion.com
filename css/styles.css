@@ -904,6 +904,13 @@ span {
             padding-right: 0;
         }
 
+        .nav-bar {
+            width: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+
     /* ----------------------                  */
     /* Navigation - Dropdown Small (1st Level) */
     /* ----------------------                  */
