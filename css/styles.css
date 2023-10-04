@@ -477,9 +477,10 @@ span {
         }
         ul li {
             font-size: 18px;
-            /* display: none; */
 
         }
+
+
         h1, h2, h3, h4, h5, h6 {
             font-family: effra_bold, effra;
         	margin-bottom: 20px;
@@ -725,7 +726,7 @@ span {
         /* Lists */
             main ul {
                 margin-bottom: 15px;
-                list-style: disc;
+                list-style: none;
             }
             main ul ul {
                 margin-left: 15px;
@@ -733,7 +734,7 @@ span {
             }
             main ul li,
             main ol ul > li {
-                list-style: disc;
+                list-style: none;
                 margin-left: 1px;
                 list-style-position: inside;
             }
