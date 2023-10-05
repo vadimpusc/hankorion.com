@@ -415,8 +415,8 @@ span {
     line-height: 130%;
     color: white;
     text-align: center;
-    padding-top: 5%;
-    width: 80%;
+    /* padding-top: 15%; */
+    width: 100%;
     justify-content: center;
     margin: auto;
 }
@@ -4691,8 +4691,7 @@ span {
 }
 
 .qna-question {
-    font-size: 20px; font-weight: bold; color: white;     cursor: pointer;
-
+    font-size: 20px; font-weight: bold; color: white; cursor: pointer;
 }
 
 .qna-question:hover {
@@ -4703,7 +4702,7 @@ span {
 
 .collapsible-label {
     display: block;
-    padding: 20px;
+    /* padding: 20px; */
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -4721,8 +4720,11 @@ span {
     display: none;
     background-color: transparent;
     border-radius: 5px;
-    border: 1px dotted;
-    padding: 40px;
+    border: 2px dotted white;
+    padding: 30px;
+
     }
+    
+    
     
     /* end  */
