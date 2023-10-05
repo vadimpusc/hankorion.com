@@ -902,12 +902,25 @@ span {
     /* ----------------------  */
         header > nav {
             float: left;
-            height: 100px;
+            /* height: 50px; */
         }
         header > nav > ul {
-            height: 100px;
             display: table;
+            margin: 30px;
+            /* height: 300px; */
         }
+
+        header > nav > ul > li > a {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* header > nav > ul > li > a:hover {
+            background-color: #007BFF;
+            border-radius: 2px;
+        } */
+
         header > nav > ul > li {
             position: relative;
             display: table-cell;
@@ -926,7 +939,17 @@ span {
             display: flex;
             text-align: center;
             justify-content: center;
+
         }
+
+        /* nav li:hover {
+            background-color: lightblue;
+            border-radius: 1px;
+            display: inline-block;
+            padding: 5px;
+                } */
+
+            
 
 
 
