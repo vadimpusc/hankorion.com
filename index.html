@@ -77,10 +77,27 @@
 
             </a>
         </div>
+
+        <script>
+            // Get a reference to the element with the ID "hiddenText"
+            var hiddenText = document.getElementById("hiddenText");
+        
+            // Function to hide the element
+            function hideElement() {
+              hiddenText.style.display = "none";
+            }
+        
+            // Set a timeout to call the hideElement function after 5 seconds (5000 milliseconds)
+            setTimeout(hideElement, 10000);
+          </script>
+        
+
         <script>
             // Call the hideOnDate function with the element ID and target hide date
-            hideOnDate("hiddenText", "2023-10-10T00:00:00"); // Hide on date
+            hideOnDate("hiddenText", "2023-10-10T00:00:00"); // Hide on this date
           </script>
+
+          <!-- end -->
 
         <!-- Begin Mobile Nav Icon -->
         <span class="menu-icon">
