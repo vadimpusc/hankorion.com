@@ -4426,6 +4426,7 @@ span {
         
             .title-title h1 {
                 width: 100%; 
+                padding: 30px;
                 text-transform: capitalize;
                 line-height: 80px;
                 text-align: center; 
@@ -4555,33 +4556,6 @@ span {
     padding: 10px;
   }
   
-/* q an a */
-
-.collapsible-label {
-display: block;
-padding: 10px;
-background-color: transparent;
-border: none;
-cursor: pointer;
-}
-
-.collapsible-checkbox {
-display: none;
-}
-
-.collapsible-checkbox:checked ~ .collapsible-content {
-display: block;
-}
-
-.collapsible-content {
-display: none;
-padding: 10px;
-background-color: transparent;
-border-radius: 5px;
-}
-
-/* end  */
-
 .parent-container {
     text-align: center; /* Optional */
   }
@@ -4706,3 +4680,49 @@ border-radius: 5px;
     font-size: 25px;
 }
 
+/* QnA */
+
+.qna-style {
+    width: 100%;
+            text-align: center;
+            font-size: 16px;
+            padding: 10px;
+            color: white;
+}
+
+.qna-question {
+    font-size: 20px; font-weight: bold; color: white;     cursor: pointer;
+
+}
+
+.qna-question:hover {
+    font-size: 20px; font-weight: bold; color: orange;
+}
+
+/* q an a */
+
+.collapsible-label {
+    display: block;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    }
+    
+    .collapsible-checkbox {
+    display: none;
+    }
+    
+    .collapsible-checkbox:checked ~ .collapsible-content {
+    display: block;
+    }
+    
+    .collapsible-content {
+    display: none;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px dotted;
+    padding: 40px;
+    }
+    
+    /* end  */
