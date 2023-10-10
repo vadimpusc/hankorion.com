@@ -3795,12 +3795,13 @@ span {
                 header .logo {
                     z-index: 100;
                 }
-/* 
+
+
                 @media only screen and (max-width: 600px) {
-                    .logo {
+                    header .logo {
                         display: none;
                     }
-                } */
+                }
 
             /* Navigation (Main Links) */
                 header > nav > ul {
