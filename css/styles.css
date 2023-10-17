@@ -4751,3 +4751,17 @@ span {
         color: white;
         text-align: center;
     }
+
+    .giveaway-container {
+    display: flex;
+    justify-content: center;
+    }
+
+    .giveaway-button {
+
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    }
