@@ -4774,3 +4774,11 @@ span {
         margin: 0px;
     }
 
+.middle-text {
+    display: flex;
+    justify-content: center;
+}
+
+.text-with-padding-bottom {
+    padding-bottom: 30px;
+}
