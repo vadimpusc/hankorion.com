@@ -4805,3 +4805,19 @@ span {
 .text-with-padding-bottom {
     padding-bottom: 30px;
 }
+
+.shout-out {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.attention-text {
+    font-weight: bold;
+}
