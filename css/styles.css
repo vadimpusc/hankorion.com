@@ -4816,6 +4816,17 @@ span {
     font-size: 18px;
     color: white;
     text-align: center;
+    border: 3px dotted white;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .shout-out {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 .attention-text {
