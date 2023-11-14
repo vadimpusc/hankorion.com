@@ -28,13 +28,7 @@ Author URL: https://themeforest.net/user/codesymbol/
 */
 
 
-.fa {
-    padding: 20px;
-    font-size: 60px;
-    width: 30px;
-    text-decoration: none;
-    border-radius: 50%;
-  }
+
 
 /* book section  */
 
@@ -4792,10 +4786,13 @@ span {
     .i-am-social {
         display: flex;
         justify-content: center;
+        align-items: center;
         font-size: 40px;
-        padding: 0px;
-        margin: 0px;
+        padding-top: 20px;
+        gap: 20px;
+        
     }
+
 
 .middle-text {
     display: flex;
@@ -4813,13 +4810,14 @@ span {
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     text-align: center;
     /* border: 3px dotted white; */
     background-color: white;
     border-radius: 5px;
-    max-width: fit-content;
+    max-width: 700px;
+    width: fit-content;
     margin: 0 auto;
     margin-top: 20px;
     padding: 10px;
@@ -4837,11 +4835,12 @@ span {
 
 @media screen and (max-width:768px) {
     .shout-out {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
         margin: 0 auto;
         margin-top: 20px;
         padding: 10px;
+
     }
 }
 
