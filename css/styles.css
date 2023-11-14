@@ -32,6 +32,11 @@ Author URL: https://themeforest.net/user/codesymbol/
 
 /* book section  */
 
+* {
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Safari-specific */
+}
+
 .buy-now-at {
     text-align: center;
     margin-top: 30px;
@@ -490,6 +495,7 @@ span {
             overflow-x: hidden;
             z-index: 0;
             font-family: effra, arial;
+            
         }
         p {
             -webkit-font-smoothing: antialiased;
@@ -4517,19 +4523,11 @@ span {
 
     .text-overlay {
         position: absolute;
-        top: 60%;
-        /* left: 50%; */
-        /* transform: translate(-50%, -50%); */
+        top: 70%;
         text-align: center;
       }
 
-      /* .text-overlay {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-      } */
+
       
       .text-overlay h1 {
         color: white;
@@ -4537,6 +4535,14 @@ span {
         font-weight: bold;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
         /* line-height: normal; */
+      }
+
+      .text-overlay-subline {
+        background-color: black;
+        width: fit-content;
+        margin: 0 auto;
+        border-radius: 3px;
+        padding: 5px;
       }
       
 
