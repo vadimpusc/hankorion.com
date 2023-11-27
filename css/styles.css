@@ -33,8 +33,8 @@ Author URL: https://themeforest.net/user/codesymbol/
 /* book section  */
 
 * {
-    user-select: none; /* Standard syntax */
-    -webkit-user-select: none; /* Safari-specific */
+    /* user-select: none;
+    -webkit-user-select: none; */
 }
 
 .buy-now-at {
