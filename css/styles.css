@@ -35,6 +35,10 @@ Author URL: https://themeforest.net/user/codesymbol/
     -webkit-user-select: none; */
 }
 
+p {
+    font-size: 20px;
+}
+
 .buy-now-at {
     text-align: center;
     margin-top: 30px;
@@ -436,10 +440,9 @@ span {
 }
 
 .about p {
-    font-size: 20px;
     line-height: 130%;
     color: white;
-    text-align: left;
+    text-align: center;
     padding-top: 10px;
     width: 100%;
 }
