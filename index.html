@@ -4,14 +4,7 @@
 <head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-699SN5HJ3P"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-699SN5HJ3P');
-</script>
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/c29907d2dcbee41b55f76cf94/2dfb63624a9c630786d948868.js");</script>
     <meta charset="utf-8">
     <title>Hank Orion | Official Website</title>
 
@@ -58,41 +51,6 @@
     <header>
 
 
-<!-- Announcement bar  -->
-  <script>
-    function hideOnDate(targetElementId, targetDate) {
-      var targetElement = document.getElementById(targetElementId);
-      var currentDate = new Date();
-      var hideDate = new Date(targetDate);
-
-      if (currentDate >= hideDate) {
-        targetElement.style.display = "none";
-      }
-    }
-  </script>
-        <!-- <div id="hiddenText" class="update-banner">
-            <a href="/store" target="blank">
-                <p>🎃 Happy Halloween! 🎃</p>
-                <p>
-                 Use code <strong>HALLOWEEN</strong> to get 30% off!
-                </p>
-            </a>
-        </div> -->
-
-        <script>
-            var hiddenText = document.getElementById("hiddenText");
-        
-            function hideElement() {
-              hiddenText.style.display = "none";
-            }
-        
-            setTimeout(hideElement, 50000);
-          </script>
-        
-
-        <script>
-            hideOnDate("hiddenText", "2023-11-10T00:00:00"); // DATE
-          </script>
 
           <!-- end -->
 
@@ -165,7 +123,6 @@ object-fit: cover;
   left: 0;
   width: 100%;
   height: 100%;
-  /* background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.7) 60%, rgba(0, 0, 0, 0.9) 70%, rgba(0, 0, 0, 1) 80%); */
   z-index: 1;
 }
 
@@ -186,27 +143,7 @@ object-fit: cover;
 </style>
 
 
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwZ-YheO1ryCufCKv75fG254Mmy3Yfl4bldUkUmNrwYZ6dYtVUB1t3ckzp9VCX3nCN6ew/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          
-            .then(response => {
-    msg.innerHTML = "Thank you for subscribing!"
 
-    setTimeout(function(){
-        msg.innerHTML = ""
-    },3000)
-    form.reset()
-            })
-            
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
     
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -262,6 +199,5 @@ object-fit: cover;
         </script>
         
     
-    <!-- Subscribe form  -->
 <!-- end  -->
 </html>
