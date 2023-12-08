@@ -28,8 +28,6 @@ Author URL: https://themeforest.net/user/codesymbol/
 */
 
 
-
-
 /* book section  */
 
 * {
@@ -965,7 +963,6 @@ span {
             display: flex;
             text-align: center;
             justify-content: center;
-
         }
 
         /* nav li:hover {
