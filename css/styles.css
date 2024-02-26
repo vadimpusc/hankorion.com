@@ -933,8 +933,8 @@ span {
         }
         header > nav > ul {
             display: table;
-            margin: 30px;
-            /* height: 300px; */
+            margin: 20px;
+            /* height: 10px; */
         }
 
         header > nav > ul > li > a {
@@ -951,7 +951,7 @@ span {
         header > nav > ul > li {
             position: relative;
             display: table-cell;
-            max-height: 100px;
+            /* max-height: 100px; */
             vertical-align: middle;
         }
         header > nav > ul > li > a {
@@ -962,18 +962,21 @@ span {
         }
 
         .nav-bar {
+            /* display: none; */
             width: 100%;
             display: flex;
             text-align: center;
             justify-content: center;
         }
 
-        /* nav li:hover {
-            background-color: lightblue;
-            border-radius: 1px;
-            display: inline-block;
-            padding: 5px;
-                } */
+        header {
+            height: auto;
+        }
+
+
+    
+
+
 
             
 
@@ -1096,11 +1099,11 @@ span {
         header > nav > ul > li.mega-menu > ul h2 {
             font-size: 18px;
             line-height: 30px;
-            margin-bottom: 15px;
-            padding-bottom: 15px;
+            /* margin-bottom: 15px; */
+            /* padding-bottom: 15px; */
             position: relative;
             text-align: left;
-            border-bottom: 1px solid;
+            /* border-bottom: 1px solid; */
         }
         header > nav > ul > li.mega-menu > ul ul {
             position: relative;
