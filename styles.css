@@ -312,3 +312,37 @@ padding-top: 100px;
     flex-direction: column;
 }
 }
+
+/* language-banner */
+.language-banner a {
+    font-size: 12px;
+}
+
+.language-banner {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999; /* Ensures the banner appears above other content */
+    transition: transform 0.3s ease;
+    transform: translateY(0);
+}
+
+.language-banner.hidden {
+    transform: translateY(-100%);
+}
+
+.language-link {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.language-link:last-child {
+    margin-right: 0;
+}
+
