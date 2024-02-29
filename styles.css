@@ -100,6 +100,11 @@ a {
     font-weight: 600;
 }
 
+strong {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 .subtext {
     font-size: clamp(10px, 15px, 20px);
     /* font-weight: 100; */
@@ -168,7 +173,6 @@ section {
     justify-content: center;
     text-align: center;
 }
-
 
 
 .video {
