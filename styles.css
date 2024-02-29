@@ -346,3 +346,21 @@ padding-top: 100px;
     margin-right: 0;
 }
 
+@media (max-width: 768px) {
+    .language-banner {
+        position: fixed;
+        left: 0;
+        width: 100%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        padding: 10px 0;
+    }
+
+    .language-link {
+        margin-right: 10px;
+    }
+}
+
+
