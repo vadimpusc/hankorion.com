@@ -315,7 +315,9 @@ padding-top: 100px;
 
 /* language-banner */
 .language-banner a {
-    font-size: 12px;
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: normal;
 }
 
 .language-banner {
@@ -348,7 +350,8 @@ padding-top: 100px;
 
 @media (max-width: 768px) {
     .language-banner {
-        position: fixed;
+        position: absolute;
+        top: 0;
         left: 0;
         width: 100%;
         border-radius: 0;
