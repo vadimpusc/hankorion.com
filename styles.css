@@ -277,3 +277,25 @@ padding-top: 100px;
 @-ms-viewport{
     width: device-width;
   }
+
+  .social-icons {
+    list-style: none;
+    padding-top: 30vh;
+    margin: 0;
+    gap: 3px;
+}
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-icons img {
+    width: 60px; 
+    height: auto;
+}
+
+@media only screen and (max-width: 800px) {
+.social-icons {
+    display: flex;
+    flex-direction: column;
+}
+}
