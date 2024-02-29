@@ -367,3 +367,24 @@ padding-top: 100px;
 }
 
 
+/* back to top  */
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: black;
+    color: white;
+    border: none;
+    /* border-radius: 50%; */
+    padding: 15px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  #backToTopBtn:hover {
+    background-color: #0056b3;
+  }
+  
