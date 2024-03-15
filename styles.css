@@ -389,3 +389,10 @@ padding-top: 100px;
   }
   
 
+.coming-soon {
+    /* color: lightblue; */
+    /* display: none; */
+    border: 2px solid black;
+    margin-bottom: 3vh;
+    padding: 20px;
+}
