@@ -36,38 +36,3 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-// loader 
-
-document.addEventListener("DOMContentLoaded", function() {
-  var loaderOverlay = document.getElementById("loaderOverlay");
-  var content = document.getElementById("content");
-
-  // Function to check if the connection is slow
-  function isSlowConnection() {
-      var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-      if (connection) {
-          var effectiveType = connection.effectiveType;
-          // Assume "slow-2g" or "2g" as slow connection types
-          return (effectiveType === "slow-2g" || effectiveType === "2g");
-      }
-      // Default to false if connection information is not available
-      return false;
-  }
-
-  // Show loader if connection is slow
-  if (isSlowConnection()) {
-      loaderOverlay.style.display = "block";
-      content.style.display = "none";
-  } else {
-      // Hide loader if connection is not slow
-      loaderOverlay.style.display = "none";
-      content.style.display = "block";
-  }
-
-  // Show content after 5 seconds even if the connection is slow
-  setTimeout(function() {
-      loaderOverlay.style.display = "none";
-      content.style.display = "block";
-  }, 5000);
-});
-
