@@ -151,12 +151,26 @@ section {
 }
 
 .about-section {
-    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    /* height: 100vh; */
+    height: auto;
     padding-left: 30px;
     padding-right: 30px;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+
+.about-image {
+    /* display: none; */
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    border-radius: 50%;
 }
 
 .video-section {
@@ -231,6 +245,11 @@ hr {
 
 @media only screen and (max-width: 800px) {
     /* Adjustments for smaller screens */
+
+    .about-image {
+        max-width: 300px;
+    }
+
     .project-container {
         display: flex;
         flex-wrap: wrap;
