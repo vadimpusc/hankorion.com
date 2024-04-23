@@ -228,6 +228,8 @@ hr {
     display: none;
 }
 
+
+
 .nav, ul {
     /* display: none; */
     display: flex;
@@ -244,7 +246,22 @@ hr {
 
 .nav-list {
     display: flex;
+    text-transform: uppercase;
     height: 50px;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    transition: transform 0.3s ease;
+    transform: translateY(0);
+
+    /* display: none; */
+}
+
+.nav-list ul li a {
+    font-size: 24px;
+    font-weight: normal;
 }
 
 
