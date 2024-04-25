@@ -27,7 +27,7 @@ html {
     padding: 10px;
 }
 
-a:hover {
+.language-banner a:hover {
     /* opacity: 0.5; */
     color: black;
     background-color: white;
@@ -450,3 +450,18 @@ padding-top: 100px;
     padding: 20px;
 }
 
+
+ .linktree-btn {
+    background: black;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+.linktree-btn a {
+    color: white;
+    padding: 20px;
+}
