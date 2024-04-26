@@ -278,7 +278,7 @@ hr {
     position: fixed;
     transition: transform 0.3s ease;
     transform: translateY(0);
-
+z-index: 90;
     /* display: none; */
 }
 
@@ -295,8 +295,15 @@ hr {
 .nav-list ul li a {
     font-size: 24px;
     font-weight: 300;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
 }
 
+.nav-list ul li a:hover {
+    background-color: black;
+    color: white;
+}
 
 @media only screen and (max-width: 800px) {
     /* Adjustments for smaller screens */
