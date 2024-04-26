@@ -126,6 +126,35 @@ width: 100%;
         max-width: 100vw;
 }
 
+.text-header {
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.text-sub-header {
+    color: white;
+    text-transform: capitalize;
+    display: block;
+    position: absolute;
+    bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.text-sub-header p {
+    background-color: black;
+}
 
 section {
     max-width: 800px; 
