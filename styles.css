@@ -184,7 +184,7 @@ section {
         min-height: 0;
         margin-top: 20px;
         /* border: solid 5px rgb(0, 0, 0); */
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
     }
 
     .container p {
@@ -314,8 +314,8 @@ z-index: 90;
     /* Adjustments for smaller screens */
 
     .about-image {
-        max-width: 300px;
-        /* margin-top: -100px; */
+        max-width: 200px;
+        margin-top: -100px;
 
     }
 
@@ -325,7 +325,7 @@ z-index: 90;
     }
 
     section {
-        max-width: 80%;
+        max-width: 90%;
 
     }
 
