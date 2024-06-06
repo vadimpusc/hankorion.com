@@ -268,15 +268,14 @@ hr {
     /* margin-bottom: 5px; */
     justify-content: center;
     align-items: center;
-    text-align: left;
-    
+    text-align: left;    
 }
 
 .nav-list {
     display: flex;
     text-transform: uppercase;
     height: 50px;
-    background-color: white;
+    background-color: black;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -298,11 +297,13 @@ z-index: 90;
 
 
 .nav-list ul li a {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     padding: 5px;
     cursor: pointer;
     border-radius: 3px;
+    color: white;
+
 }
 
 .nav-list ul li a:hover {
